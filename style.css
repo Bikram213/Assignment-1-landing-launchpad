@@ -5,6 +5,11 @@
   font-style: normal;
 }
 
+
+body{
+    background-color: aliceblue;
+}
+
 /* Shared style */
 .btn-common{
     background-color: #4E47FF;
@@ -12,6 +17,7 @@
     font-weight: bold;
     font-size: 16;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 /* Nav bar styling */
@@ -118,4 +124,132 @@
     font-weight: 400;
 }
 
+/* user feedback styles */
+.user-feedback{
+    width: 1144px;
+    margin: 137px auto;
+}
+.user-feedback h3{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.review-container{
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.review{
+    background-color: beige;
+    border-radius: 10px;
+
+}
+
+/* ready-focus-better styles */
+.ready-focus-better{
+    background-color: rgba(255, 255, 255, 1);
+    width: 1140px;
+    margin: 137px auto;
+    text-align: center;
+}
+.ready-focus-better div{
+    padding: 30px;
+}
+.ready-focus-better h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.ready-focus-better button{
+    height:  48px;
+    width: 195px;
+}
+.ready-focus-better img{
+    display: block;
+    margin: 30px auto;
+    border-radius: 48px;
+}
+
+/* section get-in-touch stles */
+.get-in-touch{
+    width: 1140px;
+    margin: 90px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 115px;
+}
+.get-in-touch h2{
+    font-size: 97px;
+    font-weight: bold;
+    color: black;
+}
+.get-in-touch label{
+    font-size: 18;
+    font-weight: 400;
+}
+
+.get-in-touch input[type="text"], .get-in-touch input[type="email"], .get-in-touch textarea{
+    
+    height: 24px;
+   color: white;
+   display: block;
+   width: 497px;
+   padding: 10px 50px; /*tb lr*/
+   margin-bottom: 24px;
+   border: none;
+
+}
+
+.get-in-touch input[type="submit"]{
+    width: 497px;
+    height: 50px;
+    
+}
+
+/* footer style*/
+footer{
+    width: 100%;
+    height: 428px;
+    background-color: white;
+}
+.footer-content{
+        padding: 20px 454px ;
+        text-align: center;
+       
+
+}
+
+.footer-content h2{
+    color: rgba(78, 71, 255, 1);
+    font-size: 100px;
+    font-weight: 400;
+}
+.footer-content h4{
+    color: rgba(137, 135, 161, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+footer .navlist ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+footer ul li{
+    list-style: none;
+    margin-right: 51px;
+    font-size: 18px;
+    font-weight: 400;
+ }
+
+ footer li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+
+ }
 
