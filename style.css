@@ -98,9 +98,7 @@ body{
     border-radius: 24px;
     padding: 20px 10px;
 }
-/* .productive-user-section h2{
-    margin-top: 10px;
-} */
+
 .member{
     display: flex;
     justify-content: space-around;
@@ -170,7 +168,7 @@ body{
     border-radius: 48px;
 }
 
-/* section get-in-touch stles */
+/* section get-in-touch styles */
 .get-in-touch{
     width: 1140px;
     margin: 90px auto;
@@ -251,5 +249,9 @@ footer ul li{
     color: black;
 
 
+ }
+
+ button:hover{
+    background-color: yellowgreen;
  }
 
