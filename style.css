@@ -126,6 +126,7 @@ body{
 .user-feedback{
     width: 1144px;
     margin: 137px auto;
+   
 }
 .user-feedback h3{
     text-align: center;
@@ -138,10 +139,38 @@ body{
     border-radius: 10px;
     justify-content: space-between;
 }
+.review-container .review .review-image{
+    display: flex;
+    gap: 10px; 
+    align-items: center;   
+
+}
+
+.review-container .review img{
+    border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+}
+.review-image .reviewr-name, .review-image .reviewr-name{
+    color: #252432;
+    font-size: 18px;
+    font-weight: 300;
+}
 .review{
-    background-color: beige;
+    background-color: white;
     border-radius: 10px;
 
+}
+.review .title{
+    font-size: 32px;
+    color:#252432;
+    margin: 20px 10px;
+}
+.review .subtitle{
+    font-size: 16px;
+    color:#252432;
+    font-weight: 400;
+    margin: 20px 10px;
 }
 
 /* ready-focus-better styles */
